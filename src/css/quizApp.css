@@ -1,0 +1,64 @@
+.quizApp {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: #0d0d0d;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.question-list {
+    display: flex;
+    flex-direction: column;
+}
+.question {
+    color: #9ca6a5;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+.answer {
+    color: #73451d;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
+    background: white;
+    outline: none;
+    border: 0;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+
+.answer:hover {
+    font-size: 1rem;
+    background: #9ca6a5;
+    color: white;
+}
+
+.score {
+    font-size: 2rem;
+    color: #c9c9c9;
+}
+
+#playagain {
+    display: none;
+}
+
+#StartButton {
+    color: green;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.2rem;
+    transition: all 0.5s;
+
+    cursor: pointer;
+}
+#StartButton:hover {
+    color: white;
+    background: #10652e;
+    box-shadow: 0 0 10px #10652e, 0 0 40px #10652e, 0 0 80px #10652e;
+}
